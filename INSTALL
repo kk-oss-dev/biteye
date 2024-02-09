@@ -50,6 +50,11 @@ of `autoconf'.
 
    The simplest way to compile this package is:
 
+  0. Install dependencies and configure
+     $ sudo apt install libsdl1.2-dev
+     $ libtoolize
+     $ autoreconf -vif
+
   1. `cd' to the directory containing the package's source code and type
      `./configure' to configure the package for your system.
 
